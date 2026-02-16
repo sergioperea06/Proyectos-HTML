@@ -4,4 +4,4 @@ Van a estar categorizados por nombre y fecha de compilación.
 
 Los proyectos iran creciendo de forma ue avanze con la compresión de los lenguajes de programación.
 
-Antes de nada "Leer ante indice de proyectos"
+Antes de nada "Leer antes indice de proyectos"
