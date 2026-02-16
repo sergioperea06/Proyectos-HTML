@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica de Formularios - Sergio Perea Sánchez</title>
+</head>
+<body>
+    <!--Cabecera-->
+    <header>
+        <h1>Sergio Perea Sánchez</h1>
+    </header>
+    <!--Formularios-->
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Datos Personales</legend>
+                <div>
+                <label>Nombre:
+                    <input type="text" required>
+                </label>
+                </div>
+                <br>
+                <div>
+                    <label>Apellidos:
+                        <input type="text" required>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>Correo Electronico:
+                        <input type="email">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>Contraseña:
+                        <input type="password" max="12">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>Edad:
+                        <input type="number" min="16" max="99">
+                    </label>
+                </div>
+                <div>
+                    <label>Sexo:
+                <br>
+                        <input type="radio" id="hombre">Hombre
+                    </label>
+                    <label>
+                        <input type="radio" id="mujer">Mujer
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>Aficiones:
+                    <br>
+                        <input type="checkbox">Deporte
+                        <input type="checkbox">Musica 
+                        <input type="checkbox">Lectura
+                        <input type="checkbox">Cine
+                        <input type="checkbox">Videojuegos
+                    </label>
+                </div>
+                <div>
+                    <br>
+                    <label>Ciclo Formativo:
+                        <select name="ciclo" id="ciclo">
+                            <option value="ASIR">ASIR</option>
+                            <option value="DAM">DAM</option>
+                            <option value="DAW">DAW</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <br>
+                    <label>Fecha de Nacimiento:
+                        <input type="date">
+                    </label>
+                </div>
+                <div>
+                    <br>
+                    <label>Foto de perfil:
+                        <input type="file">
+                    </label>
+                </div>
+                <div>
+                    <br>
+                    <label>Presentación Personal:
+                        <input type="textarea">
+                    </label>
+                </div>
+                <div>
+                    <br>
+                    <label>Nivel de satisfacción con el formulario.
+                        <progress max="100" value="50">50%</progress>
+                    </label>
+                </div>
+                <div>
+                    <br>
+                    <label>
+                        <input type="submit">
+                    </label>
+                    <label>
+                        <input type="reset">
+                    </label>
+                </div>
+        </fieldset>
+    </form>
+</body>
+</html>
